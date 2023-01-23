@@ -17,8 +17,6 @@
         $customers = mysqli_query($mysqli, "SELECT * FROM customers where account_number = $account_number");
         $current_customer = mysqli_fetch_array($customers);
 
-        print $customers;
-        print $current_customer;
         if($pin == $current_customer["pin"]){
             echo "Hello " . $current_customer["name"];
             echo "<br>";

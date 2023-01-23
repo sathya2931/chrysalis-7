@@ -9,7 +9,7 @@ CREATE TABLE customers (
     address VARCHAR(50)
   );
 
-  insert into customers (id, name, account_number, amount, address, PIN) values (1, 'Germayne', 63780214, 91.67, '11317 Superior Place', 6432);
+insert into customers (id, name, account_number, amount, address, PIN) values (1, 'Germayne', 63780214, 91.67, '11317 Superior Place', 6432);
 insert into customers (id, name, account_number, amount, address, PIN) values (2, 'Kitti', 63780215, 681.29, '0 Melby Center', 3721);
 insert into customers (id, name, account_number, amount, address, PIN) values (3, 'Theresita', 63780216, 688.84, '184 Pine View Drive', 4242);
 insert into customers (id, name, account_number, amount, address, PIN) values (4, 'Tomaso', 63780217, 479.71, '557 Sugar Pass', 2177);
